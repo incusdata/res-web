@@ -1,0 +1,175 @@
+/*Ivcus Code
+ * vim: noet ts=3 sw=3 ts=3 :
+ */
+/*@font-face {
+	font-family: 'Ivcus Code Web';
+	src: local('Ivcus Code Thin'), local('Ivcus-Code-Thin'),
+		url(fnt/ivcuscode/IvcusCode-Thin-web.woff2) format('woff2'),
+		url(fnt/ivcuscode/IvcusCode-Thin-web.woff) format('woff'),
+		url(fnt/ivcuscode/IvcusCode-Thin-web.ttf) format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Ivcus Code Web';
+	src: local('Ivcus Code Thin Italic'), local('Ivcus-Code-Thin-Italic'),
+		url(fnt/ivcuscode/IvcusCode-Thin-Italic-web.woff2) format('woff2'),
+		url(fnt/ivcuscode/IvcusCode-Thin-Italic-web.woff) format('woff'),
+		url(fnt/ivcuscode/IvcusCode-Thin-Italic-web.ttf) format('truetype');
+	font-weight: 100;
+	font-style: italic;
+}*/
+/*@font-face {
+	font-family: 'Ivcus Code Web';
+	src: local('Ivcus Code Extralight'), local('Ivcus-Code-Extralight'),
+		url(fnt/ivcuscode/IvcusCode-Extralight-web.woff2) format('woff2'),
+		url(fnt/ivcuscode/IvcusCode-Extralight-web.woff) format('woff'),
+		url(fnt/ivcuscode/IvcusCode-Extralight-web.ttf) format('truetype');
+	font-weight: 200;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Ivcus Code Web';
+	src: local('Ivcus Code Extralight Italic'), local('Ivcus-Code-Extralight-Italic'),
+		  url(fnt/ivcuscode/IvcusCode-Extralight-Italic-web.woff2) format('woff2'),
+		  url(fnt/ivcuscode/IvcusCode-Extralight-Italic-web.woff) format('woff'),
+		  url(fnt/ivcuscode/IvcusCode-Extralight-Italic-web.ttf) format('truetype');
+	font-weight: 200;
+	font-style: italic;
+}*/
+
+@font-face {
+	font-family: 'Ivcus Code Web';
+	src: /*local('Ivcus Code Light'), local('Ivcus-Code-Light'),*/
+		url(fnt/ivcuscode/IvcusCode-Light-web.woff2) format('woff2'),
+		url(fnt/ivcuscode/IvcusCode-Light-web.woff) format('woff'),
+		url(fnt/ivcuscode/IvcusCode-Light-web.ttf) format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Ivcus Code Web';
+	src: /*local('Ivcus Code Light Italic'), local('Ivcus-Code-Light-Italic'),*/
+		url(fnt/ivcuscode/IvcusCode-LightItalic-web.woff2) format('woff2'),
+		url(fnt/ivcuscode/IvcusCode-LightItalic-web.woff) format('woff'),
+		url(fnt/ivcuscode/IvcusCode-LightItalic-web.ttf) format('truetype');
+	font-weight: 300;
+	font-style: italic;
+}
+
+
+@font-face {
+	font-family: 'Ivcus Code Web';
+	/*src: local('Ivcus Code'), local('Ivcus-Code'),*/
+	src: url(fnt/ivcuscode/IvcusCode-Regular-web.woff2) format('woff2'),
+		url(fnt/ivcuscode/IvcusCode-Regular-web.woff) format('woff'),
+		url(fnt/ivcuscode/IvcusCode-Regular-web.ttf) format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Ivcus Code Web';
+	/*src: local('Ivcus Code Italic'), local('Ivcus-Code-Italic'),*/
+	src: url(fnt/ivcuscode/IvcusCode-Italic-web.woff2) format('woff2'),
+		url(fnt/ivcuscode/IvcusCode-Italic-web.woff) format('woff'),
+		url(fnt/ivcuscode/IvcusCode-Italic-web.ttf) format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+
+/*@font-face {
+	font-family: 'Ivcus Code Web';
+	src: local('Ivcus Code Medium'), local('Ivcus-Code-Medium'),
+		url(fnt/ivcuscode/IvcusCode-Medium-web.woff2) format('woff2'),
+		url(fnt/ivcuscode/IvcusCode-Medium-web.woff) format('woff'),
+		url(fnt/ivcuscode/IvcusCode-Medium-web.ttf) format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Ivcus Code Web';
+	src: local('Ivcus Code Medium Italic'), local('Ivcus-Code-Medium-Italic'),
+		url(fnt/ivcuscode/IvcusCode-Medium-Italic-web.woff2) format('woff2'),
+		url(fnt/ivcuscode/IvcusCode-Medium-Italic-web.woff) format('woff'),
+		url(fnt/ivcuscode/IvcusCode-Medium-Italic-web.ttf) format('truetype');
+	font-weight: 500;
+	font-style: italic;
+}*/
+
+@font-face {
+	font-family: 'Ivcus Code Web';
+	/*src: local('Ivcus Code Semibold Italic'), local('Ivcus-Code-Semibold-Italic'),*/
+	src: url(fnt/ivcuscode/IvcusCode-Semibold-Italic-web.woff2) format('woff2'),
+		url(fnt/ivcuscode/IvcusCode-Semibold-Italic-web.woff) format('woff'),
+		url(fnt/ivcuscode/IvcusCode-Semibold-Italic-web.ttf) format('truetype');
+	font-weight: 600;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Ivcus Code Web';
+	/*src: local('Ivcus Code Semibold'), local('Ivcus-Code-Semibold'),*/
+	src: url(fnt/ivcuscode/IvcusCode-Semibold-web.woff2) format('woff2'),
+		url(fnt/ivcuscode/IvcusCode-Semibold-web.woff) format('woff'),
+		url(fnt/ivcuscode/IvcusCode-Semibold-web.ttf) format('truetype');
+	font-weight: 600;
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Ivcus Code Web';
+	/*src: local('Ivcus Code Bold'), local('Ivcus-Code-Bold'),*/
+	src: url(fnt/ivcuscode/IvcusCode-Bold-web.woff2) format('woff2'),
+		url(fnt/ivcuscode/IvcusCode-Bold-web.woff) format('woff'),
+		url(fnt/ivcuscode/IvcusCode-Bold-web.ttf) format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Ivcus Code Web';
+	/*src: local('Ivcus Code Bold Italic'), local('Ivcus-Code-Bold-Italic'),*/
+	src: url(fnt/ivcuscode/IvcusCode-BoldItalic-web.woff2) format('woff2'),
+		url(fnt/ivcuscode/IvcusCode-BoldItalic-web.woff) format('woff'),
+		url(fnt/ivcuscode/IvcusCode-BoldItalic-web.ttf) format('truetype');
+	font-weight: bold;
+	font-style: italic;
+}
+
+/*@font-face {
+	font-family: 'Ivcus Code Web';
+	src: local('Ivcus Code Extrabold'), local('Ivcus-Code-Extrabold'),
+		url(fnt/ivcuscode/IvcusCode-Extrabold-web.woff2) format('woff2'),
+		url(fnt/ivcuscode/IvcusCode-Extrabold-web.woff) format('woff'),
+		url(fnt/ivcuscode/IvcusCode-Extrabold-web.ttf) format('truetype');
+	font-weight: 800;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Ivcus Code Web';
+	src: local('Ivcus Code Extrabold Italic'), local('Ivcus-Code-Extrabold-Italic'),
+		url(fnt/ivcuscode/IvcusCode-Extrabold-Italic-web.woff2) format('woff2'),
+		url(fnt/ivcuscode/IvcusCode-Extrabold-Italic-web.woff) format('woff'),
+		url(fnt/ivcuscode/IvcusCode-Extrabold-Italic-web.ttf) format('truetype');
+	font-weight: 800;
+	font-style: italic;
+}*/
+
+/*@font-face {
+	font-family: 'Ivcus Code Web';
+	src: local('Ivcus Code Heavy'), local('Ivcus-Code-Heavy'),
+		url(fnt/ivcuscode/IvcusCode-Heavy-web.woff2) format('woff2'),
+		url(fnt/ivcuscode/IvcusCode-Heavy-web.woff) format('woff'),
+		url(fnt/ivcuscode/IvcusCode-Heavy-web.ttf) format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Ivcus Code Web';
+	src: local('Ivcus Code Heavy Italic'), local('Ivcus-Code-Heavy-Italic'),
+		url(fnt/ivcuscode/IvcusCode-Heavy-Italic-web.woff2) format('woff2'),
+		url(fnt/ivcuscode/IvcusCode-Heavy-Italic-web.woff) format('woff'),
+		url(fnt/ivcuscode/IvcusCode-Heavy-Italic-web.ttf) format('truetype');
+	font-weight: 900;
+	font-style: italic;
+}*/
+

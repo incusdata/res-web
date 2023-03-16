@@ -1,0 +1,112 @@
+/*Source Serif Pro
+ * vim: noet ts=3 sw=3 :
+ */
+/*@font-face {
+	font-family: 'Source Serif Web';
+	src: local('Source Serif Pro ExtraLight'), local('SourceSerifPro-ExtraLight'),
+		url(fnt/sourceserif/SourceSerifPro-ExtraLight-web.woff2) format('woff2'),
+		url(fnt/sourceserif/SourceSerifPro-ExtraLight-web.woff) format('woff'),
+		url(fnt/sourceserif/SourceSerifPro-ExtraLight-web.ttf) format('truetype');
+	font-weight: 200;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Source Serif Web';
+	src: local('Source Serif Pro ExtraLight Italic'), local('SourceSerifPro-ExtraLightIt'),
+		url(fnt/sourceserif/SourceSerifPro-ExtraLightIt-web.woff2) format('woff2'),
+		url(fnt/sourceserif/SourceSerifPro-ExtraLightIt-web.woff) format('woff'),
+		url(fnt/sourceserif/SourceSerifPro-ExtraLightIt-web.ttf) format('truetype');
+	font-weight: 200;
+	font-style: italic;
+}*/
+
+/*@font-face {
+	font-family: 'Source Serif Web';
+	src: local('Source Serif Pro Light'), local('SourceSerifPro-Light'),
+		url(fnt/sourceserif/SourceSerifPro-Light-web.woff2) format('woff2'),
+		url(fnt/sourceserif/SourceSerifPro-Light-web.woff) format('woff'),
+		url(fnt/sourceserif/SourceSerifPro-Light-web.ttf) format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Source Serif Web';
+	src: local('Source Serif Pro Light Italic'), local('SourceSerifPro-LightIt'),
+		url(fnt/sourceserif/SourceSerifPro-LightIt-web.woff2) format('woff2'),
+		url(fnt/sourceserif/SourceSerifPro-LightIt-web.woff) format('woff'),
+		url(fnt/sourceserif/SourceSerifPro-LightIt-web.ttf) format('truetype');
+	font-weight: 300;
+	font-style: italic;
+}*/
+
+@font-face {
+	font-family: 'Source Serif Web';
+	src: url(fnt/sourceserif/SourceSerifPro-Regular-web.woff2) format('woff2'),
+		url(fnt/sourceserif/SourceSerifPro-Regular-web.woff) format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Source Serif Web';
+	src: url(fnt/sourceserif/SourceSerifPro-It-web.woff2) format('woff2'),
+		url(fnt/sourceserif/SourceSerifPro-It-web.woff) format('woff');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Source Serif Web';
+	src: url(fnt/sourceserif/SourceSerifPro-Semibold-web.woff2) format('woff2'),
+		url(fnt/sourceserif/SourceSerifPro-Semibold-web.woff) format('woff');
+	/*font-weight: 600;*/
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Source Serif Web';
+	/*src: local('Source Serif Pro Semibold Italic'), local('SourceSerifPro-SemiboldIt'),*/
+	src: url(fnt/sourceserif/SourceSerifPro-SemiboldIt-web.woff2) format('woff2'),
+		url(fnt/sourceserif/SourceSerifPro-SemiboldIt-web.woff) format('woff');
+	/*font-weight: 600;*/
+	font-weight: bold;
+	font-style: italic;
+}
+
+/*@font-face {
+	font-family: 'Source Serif Web';
+	src: local('Source Serif Pro Bold'), local('SourceSerifPro-Bold'),
+		url(fnt/sourceserif/SourceSerifPro-Bold-web.woff2) format('woff2'),
+		url(fnt/sourceserif/SourceSerifPro-Bold-web.woff) format('woff'),
+		url(fnt/sourceserif/SourceSerifPro-Bold-web.ttf) format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Source Serif Web';
+	src: local('Source Serif Pro Bold Italic'), local('SourceSerifPro-BoldIt'),
+		url(fnt/sourceserif/SourceSerifPro-BoldIt-web.woff2) format('woff2'),
+		url(fnt/sourceserif/SourceSerifPro-BoldIt-web.woff) format('woff'),
+		url(fnt/sourceserif/SourceSerifPro-BoldIt-web.ttf) format('truetype');
+	font-weight: bold;
+	font-style: italic;
+}*/
+
+/*@font-face {
+	font-family: 'Source Serif Web';
+	src: local('Source Serif Pro Black'), local('SourceSerifPro-Black'),
+		url(fnt/sourceserif/SourceSerifPro-Black-web.woff2) format('woff2'),
+		url(fnt/sourceserif/SourceSerifPro-Black-web.woff) format('woff'),
+		url(fnt/sourceserif/SourceSerifPro-Black-web.ttf) format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Source Serif Web';
+	src: local('Source Serif Pro Black Italic'), local('SourceSerifPro-BlackIt'),
+		url(fnt/sourceserif/SourceSerifPro-BlackIt-web.woff2) format('woff2'),
+		url(fnt/sourceserif/SourceSerifPro-BlackIt-web.woff) format('woff'),
+		url(fnt/sourceserif/SourceSerifPro-BlackIt-web.ttf) format('truetype');
+	font-weight: 900;
+	font-style: italic;
+}*/
+

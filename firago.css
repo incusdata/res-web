@@ -1,0 +1,125 @@
+/*firaGO
+* vim: noet ts=3 sw=3 ts=3 :
+*/
+/*@font-face {
+	font-family: 'FiraGO';
+	src: local('FiraGO Light'), local('FiraGO-Light'),
+		url(fnt/firago/FiraGO-Light-web.woff2) format('woff2'),
+		url(fnt/firago/FiraGO-Light-web.woff) format('woff'),
+		url(fnt/firago/FiraGO-Light-web.ttf) format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'FiraGO';
+	src: local('FiraGO Light Italic'), local('FiraGO-LightItalic'),
+		url(fnt/firago/FiraGO-LightItalic-web.woff2) format('woff2'),
+		url(fnt/firago/FiraGO-LightItalic-web.woff) format('woff'),
+		url(fnt/firago/FiraGO-LightItalic-web.ttf) format('truetype');
+	font-weight: 300;
+	font-style: italic;
+}*/
+
+@font-face {
+	/*font-family: 'FiraGO Book';*/
+	font-family: 'FiraGO';
+	src: local('FiraGO Book'), local('FiraGO-Book'),
+		url(fnt/firago/FiraGO-Book-web.woff2) format('woff2'),
+		url(fnt/firago/FiraGO-Book-web.woff) format('woff'),
+		url(fnt/firago/FiraGO-Book-web.ttf) format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	/*font-family: 'FiraGO Book';*/
+	font-family: 'FiraGO';
+	src: local('FiraGO Book Italic'), local('FiraGO-BookItalic'),
+		url(fnt/firago/FiraGO-BookItalic-web.woff2) format('woff2'),
+		url(fnt/firago/FiraGO-BookItalic-web.woff) format('woff'),
+		url(fnt/firago/FiraGO-BookItalic-web.ttf) format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+
+
+/*@font-face {
+	font-family: 'FiraGO';
+	src: local('FiraGO Regular'), local('FiraGO-Regular'),
+		url(fnt/firago/FiraGO-Regular-web.woff2) format('woff2'),
+		url(fnt/firago/FiraGO-Regular-web.woff) format('woff'),
+		url(fnt/firago/FiraGO-Regular-web.ttf) format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'FiraGO';
+	src: local('FiraGO Italic'), local('FiraGO-Italic'),
+		url(fnt/firago/FiraGO-Italic-web.woff2) format('woff2'),
+		url(fnt/firago/FiraGO-Italic-web.woff) format('woff'),
+		url(fnt/firago/FiraGO-Italic-web.ttf) format('truetype');
+	font-weight: 500;
+	font-style: italic;
+}*/
+
+@font-face {
+	font-family: 'FiraGO';
+	src: local('FiraGO Medium'), local('FiraGO-Medium'),
+		url(fnt/firago/FiraGO-Medium-web.woff2) format('woff2'),
+		url(fnt/firago/FiraGO-Medium-web.woff) format('woff'),
+		url(fnt/firago/FiraGO-Medium-web.ttf) format('truetype');
+	/*font-weight: 600;*/
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'FiraGO';
+	src: local('FiraGO Medium Italic'), local('FiraGO-MediumItalic'),
+		url(fnt/firago/FiraGO-MediumItalic-web.woff2) format('woff2'),
+		url(fnt/firago/FiraGO-MediumItalic-web.woff) format('woff'),
+		url(fnt/firago/FiraGO-MediumItalic-web.ttf) format('truetype');
+	/*font-weight: 600;*/
+	font-weight: bold;
+	font-style: italic;
+}
+
+/*@font-face {
+	font-family: 'FiraGO';
+	src: local('FiraGO Semibold Italic'), local('FiraGO-SemiboldItalic'),
+		url(fnt/firago/FiraGO-SemiboldItalic-web.woff2) format('woff2'),
+		url(fnt/firago/FiraGO-SemiboldItalic-web.woff) format('woff'),
+		url(fnt/firago/FiraGO-SemiboldItalic-web.ttf) format('truetype');
+	/*font-weight: 600;
+	font-weight: bold;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'FiraGO';
+	src: local('FiraGO Semibold'), local('FiraGO-Semibold'),
+		url(fnt/firago/FiraGO-Semibold-web.woff2) format('woff2'),
+		url(fnt/firago/FiraGO-Semibold-web.woff) format('woff'),
+		url(fnt/firago/FiraGO-Semibold-web.ttf) format('truetype');
+	/*font-weight: 600;
+	font-weight: bold;
+	font-style: normal;
+}*/
+
+/*@font-face {
+	font-family: 'FiraGO';
+	src: local('FiraGO Bold'), local('FiraGO-Bold'),
+		url(fnt/firago/FiraGO-Bold-web.woff2) format('woff2'),
+		url(fnt/firago/FiraGO-Bold-web.woff) format('woff'),
+		url(fnt/firago/FiraGO-Bold-web.ttf) format('truetype');
+	font-weight: 800;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'FiraGO';
+	src: local('FiraGO Bold Italic'), local('FiraGO-BoldItalic'),
+		url(fnt/firago/FiraGO-BoldItalic-web.woff2) format('woff2'),
+		url(fnt/firago/FiraGO-BoldItalic-web.woff) format('woff'),
+		url(fnt/firago/FiraGO-BoldItalic-web.ttf) format('truetype');
+	font-weight: 800;
+	font-style: italic;
+}*/
+
+
