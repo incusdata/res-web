@@ -12,11 +12,30 @@ The TrueType fonts (TTF) can be installed, and will be search for first in the
 This repository is intended to be used as a **git** sub-module. Here is an
 example command-line, to be executed in a git repository that wants to use this
 as a sub-module. Our repositories expect resources in a `res` subdirectory, so
-we use the `--name res` option:
+we use the `--name res` option, and `res/` path.
 
 ```sh
 git submodule add --name res \
-   -- git@github.com:incusdata/res-web
+   -- git@github.com:incusdata/res-web res/
+```
+
+Before updating (pulling) from the submodule repository, it should be first
+initialised (once):
+
+```sh
+git submodule update --init --recursive
+```
+
+Further updates will involve the following command:
+
+```sh
+git submodule update --recursive --remote
+```
+
+You may alternatively try the following command (git 1.8.5 and later):
+
+```sh
+git pull --recurse-submodules --jobs=10
 ```
 
 ## Font Licences
@@ -26,8 +45,8 @@ are are downloadable from their respective GitHub repositories.
 
 * [**FiraGO**][firago-home] —  SIL [Open Font Licence][w-sil-ofl] (OFL) (also
   on [GitHub][gh-firago]).
-* [**Source Serif**][sserif-home] — SIL [Open Font License][gh-sserif-lic].
-* [**Iosevka**][gh-iosevka] — SIL [Open Font License][gh-iosveka-lic]
+* [**Source Serif**][gh-sserif] — SIL [Open Font License][gh-sserif-lic].
+* [**Iosevka**][gh-iosevka] — SIL [Open Font License][gh-iosevka-lic]
 
 This reposity contains a modified version of **Iosevka**, called **IvcusCode**.
 
