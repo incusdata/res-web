@@ -16,11 +16,11 @@ we use the `--name res` option, and `res/` path.
 
 ```sh
 git submodule add --name res \
-   -- git@github.com:incusdata/res-web res/
+   -- https://github.com/incusdata/res-web.git res/
 ```
 
 Before updating (pulling) from the submodule repository, it should be first
-initialised (once):
+initialised *once*:
 
 ```sh
 git submodule update --init --recursive
@@ -32,7 +32,7 @@ Further updates will involve the following command:
 git submodule update --recursive --remote
 ```
 
-You may alternatively try the following command (git 1.8.5 and later):
+You may alternatively try `--recurse-submodules` (git 1.8.5 and later):
 
 ```sh
 git pull --recurse-submodules --jobs=10
