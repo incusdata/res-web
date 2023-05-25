@@ -1,3 +1,27 @@
+/* Stylesheet for Incus Data Github website  - not including fonts */
+/* Import stylesheets for fonts */
+@import url("firago.css");
+@import url("ivcuscode.css");
+@import url("sourceserif.css");
+@import url("incusicons.css");
+@import url("vanilla.css");
+
+header>a>img.logo {
+padding: 20px 0;
+   float:left;
+   }
+div.hdrtop {
+   text-align:right;
+   }
 h1 {
-   color: #c00000;
+   margin-top:2rem;
 }
+
+body p, body dd, body dd p, body li, body li p  {
+	font-family: var(--ff-sans);
+}
+blockquote {
+    font-style: italic;
+    font-family: var(--ff-serif);
+}
+
